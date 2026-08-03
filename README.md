@@ -1,6 +1,6 @@
 # 🌶️ Business Analytics for a Self-Funded D2C Spice Venture
 
-Project Overview
+## Project Overview
 
 This project presents an end-to-end business analytics solution developed using historical sales data from a self-funded Direct-to-Consumer (D2C) spice business. The objective was to transform manually recorded sales data into actionable business insights through data cleaning, relational database design, SQL-based analysis, and interactive Power BI dashboards.
 
@@ -12,8 +12,9 @@ The project demonstrates the complete analytics workflow, including:
 - Interactive dashboard development in Power BI
 - Business insight generation and strategic recommendations
 
+---
 
-Business Objective
+## Business Objective
 
 The primary objectives of this project were to:
 
@@ -23,61 +24,67 @@ The primary objectives of this project were to:
 - Evaluate revenue trends over time
 - Generate data-driven business recommendations to improve sales and customer retention
 
+---
 
-Tools & Technologies
+## Tools & Technologies
 
-- Microsoft Excel
+- **Microsoft Excel**
   - Data Cleaning
   - Data Transformation
   - Dataset Preparation
 
-- MySQL
+- **MySQL**
   - Relational Database Design
   - SQL Queries
   - Business KPI Analysis
 
-- Power BI
+- **Power BI**
   - Interactive Dashboard Development
   - KPI Reporting
   - Sales & Customer Analysis
 
-Dataset Overview
+---
+
+## Dataset Overview
 
 The project is based on historical transaction records maintained during business operations.
 
-Dataset Summary
+### Dataset Summary
 
-Metric with their respective values:
-Orders: 102 
-Products: 7
-Product Categories: 1
-Customers: Historical Customer Records
-Tables Created: 3
+| Metric | Value |
+|---------|------:|
+| Orders | 102 |
+| Products | 7 |
+| Product Categories | 1 |
+| Customers | Historical Customer Records |
+| Tables Created | 3 |
 
-Database Structure
+### Database Structure
 
 The data was normalized into three relational tables:
 
-Orders
+### Orders
 - OrderID
 - OrderDate
 - CustomerName
 - TotalAmount
 
-Products
+### Products
 - ProductID
 - ProductName
 - Category
 - Price
 
-OrderItems
+### OrderItems
 - OrderID
 - ProductID
 - Quantity
 
 This normalized structure enables efficient SQL querying and supports scalable reporting within Power BI.
 
-Business Questions Answered
+---
+
+## Business Questions Answered
 
 This project answers several key business questions:
 
@@ -90,7 +97,9 @@ This project answers several key business questions:
 - What are the monthly sales trends?
 - Which products contribute the highest sales volume?
 
-SQL Analysis
+---
+
+## SQL Analysis
 
 SQL was used to perform business analysis and calculate key performance indicators, including:
 
@@ -105,39 +114,43 @@ SQL was used to perform business analysis and calculate key performance indicato
 - Monthly Order Trends
 - Average Products per Order
 
-Power BI Dashboard
+---
+
+## Power BI Dashboard
 
 The dashboard provides an executive overview of business performance through interactive visualizations.
 
-Dashboard Features
+### Dashboard Features
 
-Executive KPIs
+#### Executive KPIs
 - Total Revenue
 - Total Orders
 - Average Order Value
 - Total Packets Sold
 
-Product Performance
+#### Product Performance
 - Quantity Sold by Product
 - Product Revenue Analysis
 - Top Selling Products
 
-Customer Analysis
+#### Customer Analysis
 - Top Customers
 - Repeat Customer Analysis
 
-Sales Trends
+#### Sales Trends
 - Monthly Revenue
 - Monthly Order Trends
 
-Dashboard Preview
+### Dashboard Preview
 
-<img width="1265" height="678" alt="Dashboard" src="https://github.com/user-attachments/assets/85f0caa8-1a52-478b-a3be-8568253600b0" />
+<img width="1265" height="678" alt="Dashboard" src="https://github.com/user-attachments/assets/5c33e1d7-5c11-4484-a490-23dda665be72" />
 
 
-Key Business Insights
+---
 
-Executive Summary
+# Key Business Insights
+
+## Executive Summary
 
 - Processed **102 customer orders** generating **₹41,027** in customer payments.
 - Achieved an **Average Order Value (AOV) of ₹402**, indicating customers frequently purchased multiple products in a single transaction.
@@ -243,7 +256,7 @@ Business Insights & Recommendations
 - Data Validation
 - Analytical Thinking
 
-
+---
 
 ## Future Improvements
 
@@ -256,8 +269,10 @@ Future enhancements for this project include:
 - Profitability analysis
 - Marketing campaign performance analysis
 
+---
+
 ## Author
 
-**Manasa G. V**
+**Manasa G V**
 
 Business Analytics | Data Analytics | SQL | Power BI | Excel
