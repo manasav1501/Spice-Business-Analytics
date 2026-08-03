@@ -12,6 +12,20 @@ The project demonstrates the complete analytics workflow, including:
 - Interactive dashboard development in Power BI
 - Business insight generation and strategic recommendations
 
+## Supporting Business Documentation
+
+To provide additional context and validate the real-world nature of this project, supporting business documents have been compiled in a shared Google Drive folder.
+
+The folder includes:
+- FSSAI registration documentation
+- Product marketing materials and promotional creatives
+- Customer reviews and testimonials
+- Business overview and supporting documents
+
+**Google Drive:** https://drive.google.com/drive/folders/1u9nwqkwVKF5qz2SgPtUgwd-0Ov07a21t?usp=sharing
+
+> **Note:** Sensitive personal information and customer-identifiable data have been removed or anonymized where appropriate.
+
 ---
 
 ## Business Objective
